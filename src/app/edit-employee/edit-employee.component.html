@@ -1,0 +1,21 @@
+<div class="col-md-6 user-container" *ngIf="showForm">
+    <h4 class="text-center">Edit Employee</h4>
+    <form [formGroup]="editForm" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label for="username">Employee Name:</label>
+        <input type="text" formControlName="employee_name" placeholder="Employee Name" name="username" class="form-control" id="name">
+      </div>
+
+      <div class="form-group">
+        <label for="age">Age:</label>
+        <input type="number" formControlName="employee_age" placeholder="Age" name="age" class="form-control" id="age">
+      </div>
+  
+      <div class="form-group">
+        <label for="salary">Salary:</label>
+        <input type="number" formControlName="employee_salary" placeholder="Salary" name="salary" class="form-control" id="salary">
+      </div>
+  
+      <button class="btn btn-success">Update</button>
+    </form>
+  </div>
