@@ -9,6 +9,7 @@ The component accept all the options as a hardcoded Json object.
       2. Edit Record Implemented
       3. Sorting added to the grid
             How to use: Click on the header to sort.
+      4. Search added to the grid
       4. Delete Record Implemented
       5. Angular Routing
       6. Text Animation
