@@ -4,6 +4,7 @@ The component is integrate with an API(any api of your choice) to implement Crea
 The component accept all the options as a hardcoded Json object.
 
 #Feature List:
+
       1. Add Record Implemented
       2. Edit Record Implemented
       3. Sorting added to the grid
